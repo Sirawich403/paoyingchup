@@ -113,9 +113,9 @@ body {
 
 .borderr {
   margin-top: 2%;
-  margin-left: 30%;
+ 
   background-color: #c5f5f8;
-  max-width: 40%;
+  width: 70vw;
   max-height: 80%;
   border-radius: 20px;
 }
@@ -126,6 +126,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 /* Style other elements as needed */
