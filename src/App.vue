@@ -9,7 +9,7 @@ import { ref } from 'vue'
         <div class="team">
           <h2>TeamA</h2>
               <img  v-if="teamAChoice ===''" src="/src/assets/rock.png" alt="Rock">
-              <img  v-if="teamAChoice ==='Rock'" :src="'/src/assets/rock.png'" alt="Rock">
+              <img  v-if="teamAChoice ==='Rock'" src="/src/assets/rock.png" alt="Rock">
               <img  v-if="teamAChoice ==='Paper'" src="/src/assets/paper.png" alt="Paper">      
               <img  v-if="teamAChoice ==='Scissors'" src="/src/assets/sci.png" alt="Scissors">
               <img  v-if="teamAChoice ==='Luv'" src="/src/assets/loveeee.png" alt="Luv">
